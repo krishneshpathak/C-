@@ -1,3 +1,0 @@
-/home/krishnesh/github/CppBasic/Template/CMakeFiles/rebuild_cache.dir
-/home/krishnesh/github/CppBasic/Template/CMakeFiles/edit_cache.dir
-/home/krishnesh/github/CppBasic/Template/CMakeFiles/template_example.dir
