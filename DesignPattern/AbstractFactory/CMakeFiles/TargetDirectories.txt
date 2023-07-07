@@ -1,3 +1,0 @@
-/home/krishnesh/github/DesignPattern/AbstractFactory/CMakeFiles/rebuild_cache.dir
-/home/krishnesh/github/DesignPattern/AbstractFactory/CMakeFiles/edit_cache.dir
-/home/krishnesh/github/DesignPattern/AbstractFactory/CMakeFiles/AbstractFactory_Example.dir
