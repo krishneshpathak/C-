@@ -102,19 +102,25 @@ void app(AbstractIf& abs)
 
     txpck->CreateTxPacket();
     rxpck->CreateRxPacket();
+
+    delete txpck;
+    delete rxpck;
 }
 
 //----------test the application -------------------------
 int main()
 {
-    AbstractIf *tcpabs = new concreteTcp;
+    AbstractIf *tcpabs = new concreteTcp();
     app(*tcpabs);
+    delete tcpabs;
 
-    AbstractIf *udpabs = new concreteUdp;
+    AbstractIf *udpabs = new concreteUdp();
     app(*udpabs);
+    delete udpabs;
 
-    AbstractIf *ipabs = new concreteIp;
+    AbstractIf *ipabs = new concreteIp();
     app(*ipabs);
-    
+    delete ipabs;
+
     return 0;
 }
